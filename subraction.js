@@ -1,8 +1,7 @@
-subtraction =(a,b) => {
-    return (a - b)
+exports.subtraction =(a,b) => {
+    return b > a ?
+    `${b} is greater than ${a}`:
+    a - b;
 
-}
+};
 
-module.exports = {
-    subtraction
-}
