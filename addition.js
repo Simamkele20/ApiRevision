@@ -1,1 +1,5 @@
-console.log("add")
+exports.addition = (a,b) => {
+    return a + b
+}
+
+
